@@ -10,7 +10,7 @@ A и возвращающую ее в переменной B (A — входно
     $num_4 = $_POST['4']; 
     $num_5 = $_POST['5']; 
     function PowerA3($num){
-        return pow($num, 3);
+        return pow($num, 4);
     }
     
 ?>
@@ -33,11 +33,11 @@ A и возвращающую ее в переменной B (A — входно
         <input type="submit"/>
     </form>
         <p name='answer'>
-            Число 1: <?php echo $num_1?> 3 степень: <?php echo PowerA3($num_1) ?><br/>
-            Число 2: <?php echo $num_2?> 3 степень: <?php echo PowerA3($num_2)?><br/>
-            Число 3: <?php echo $num_3?> 3 степень: <?php echo PowerA3($num_3)?><br/>
-            Число 4: <?php echo $num_4?> 3 степень: <?php echo PowerA3($num_4)?><br/>
-            Число 5: <?php echo $num_5?> 3 степень: <?php echo PowerA3($num_5)?><br/>
+            Число 1: <?php echo $num_1?> 4 степень: <?php echo PowerA3($num_1) ?><br/>
+            Число 2: <?php echo $num_2?> 4 степень: <?php echo PowerA3($num_2)?><br/>
+            Число 3: <?php echo $num_3?> 4 степень: <?php echo PowerA3($num_3)?><br/>
+            Число 4: <?php echo $num_4?> 4 степень: <?php echo PowerA3($num_4)?><br/>
+            Число 5: <?php echo $num_5?> 4 степень: <?php echo PowerA3($num_5)?><br/>
         </p>
 </body>
 </html>
